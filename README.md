@@ -20,10 +20,10 @@ It offers an easy-to-use decorator — `@Singleton` — that supports optional t
 
 ## 1. Installation
 
-You can install **SinglePy** directly from [PyPI](https://pypi.org/project/singlepy/):
+You can install **SinglePy** directly from [PyPI](https://pypi.org/project/singletonizeme/):
 
 ```bash
-pip install singlepy
+pip install singletonizeme
 
 ```
 
@@ -34,7 +34,7 @@ pip install singlepy
 The decorator can be applied to any class to ensure it has only one instance.
 
 ```python
-from singlepy import Singleton
+from singletonizeme import Singleton
 
 @Singleton
 class DatabaseConnection:
@@ -228,4 +228,5 @@ for t in threads:
 
 
 MIT License © 2025 Giuseppe De Martino, PhD
+
 
