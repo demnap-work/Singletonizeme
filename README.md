@@ -1,4 +1,4 @@
-# SinglePy
+# Singletonizeme
 
 **SinglePy** is a lightweight Python library that provides a simple and elegant way to make any class behave as a *singleton* — ensuring only one instance of the class exists throughout the entire program.
 
@@ -225,5 +225,6 @@ for t in threads:
 # Output: "Instance created!" printed only once
 
 ## 6. License
+
 
 MIT License © 2025 Giuseppe De Martino, PhD
